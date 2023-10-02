@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{2C58FDB7-E66B-458F-B293-4DB08AD20383}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="browser" Key="{58AA6737-4BAB-49B9-B3FD-9DA208A0DE0A}">
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="BrowserWindow" Key="{D6263DB7-67EB-4649-8411-54B11FC2D8A1}">
+								<Image FileName="-1943983750" Left="-8" Top="-8" Right="1928" Bottom="1048" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="0" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="pageYsu1973Webtest1" Key="{8C8EA783-3DCB-4380-9B5D-A8848FC96A92}">
+								<Image FileName="-1943983750" Left="0" Top="109" Right="1920" Bottom="1040" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://github.com/ysu1973/WebTest1" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="detailsCode" Key="{509A9BC1-A7A1-4899-83C9-2B2B7CD65B99}">
+										<Image FileName="-1943983750" Left="1149" Top="300" Right="1248" Bottom="332" />
+										<Selectors>
+											<Selector>
+												<Value Value="//details[contains(., &apos;Use Git or checkout with SVN using the web URL.&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//get-repo/details[contains(@class, &apos;position-relative&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;repo-content-pjax-container&apos;]//get-repo/details" />
+											</Selector>
+											<Selector>
+												<Value Value="//get-repo/details" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="summaryCode" Key="{14DF9992-B432-4868-9771-73A07EED829B}">
+										<Image FileName="-1943983750" Left="1149" Top="300" Right="1248" Bottom="332" />
+										<TypeInfo Item0="{83B4CAC3-DF89-460B-889C-67D5567428B6}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//summary[contains(., &apos;Code&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//summary[contains(@class, &apos;Button--primary&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;repo-content-pjax-container&apos;]//get-repo/details/summary" />
+											</Selector>
+											<Selector>
+												<Value Value="//get-repo/details/summary" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeCode" Key="{360545CE-5365-4E78-8CA3-9CE010F054B0}">
+										<Image FileName="-1443785644" Left="1186" Top="306" Right="1219" Bottom="326" />
+										<TypeInfo Item0="{83B4CAC3-DF89-460B-889C-67D5567428B6}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//get-repo/details/summary//span[contains(@class, &apos;Button-label&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="browser" Owner="{58AA6737-4BAB-49B9-B3FD-9DA208A0DE0A}">
+			<Child Name="BrowserWindow" Owner="{D6263DB7-67EB-4649-8411-54B11FC2D8A1}" />
+			<Child Name="pageYsu1973Webtest1" Owner="{8C8EA783-3DCB-4380-9B5D-A8848FC96A92}">
+				<Child Name="detailsCode" Owner="{509A9BC1-A7A1-4899-83C9-2B2B7CD65B99}">
+					<Child Name="summaryCode" Owner="{14DF9992-B432-4868-9771-73A07EED829B}">
+						<Child Name="textnodeCode" Owner="{360545CE-5365-4E78-8CA3-9CE010F054B0}" />
+					</Child>
+				</Child>
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>
